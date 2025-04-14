@@ -9,9 +9,9 @@ fetch("https://weatherapp-backend-matteo-pisellis-projects.vercel.app/weather")
 <p class="description">${data.weather[i].description}</p>
 <img class="weatherIcon" src="images/${data.weather[i].main}.png"/>
 <div class="temperature">
-<p class="tempMin">${data.weather[i].tempMin}째C</p>
+<p class="tempMin">${data.weather[i].tempMin}°C</p>
 <span>-</span>
-<p class="tempMax">${data.weather[i].tempMax}째C</p>
+<p class="tempMax">${data.weather[i].tempMax}°C</p>
 </div>
 <button class="deleteCity" id="${data.weather[i].cityName}">Delete</button>
 </div>
