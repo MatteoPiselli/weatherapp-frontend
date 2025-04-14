@@ -60,9 +60,9 @@ document.querySelector("#addCity").addEventListener("click", function () {
 <p class="description">${data.weather.description}</p>
 <img class="weatherIcon" src="images/${data.weather.main}.png"/>
 <div class="temperature">
-<p class="tempMin">${data.weather.tempMin}째C</p>
+<p class="tempMin">${data.weather.tempMin}°C</p>
 <span>-</span>
-<p class="tempMax">${data.weather.tempMax}째C</p>
+<p class="tempMax">${data.weather.tempMax}°C</p>
 </div>
 <button class="deleteCity" id="${data.weather.cityName}">Delete</button>
 </div>
